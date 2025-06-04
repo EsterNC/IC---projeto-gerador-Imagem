@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./estilos/estilo.css">
+</head>
+<body>
+    <header class="header"><h1>GERADOR DE IMAGENS</h1>
+        <nav>
+            <ul>
+                <li><strong><a href ="sobre.html" >Sobre o Projeto</a></strong></li>
+                <li><strong><a href = "galeria.html">Galeria de Imagens</a></strong></li>
+                <li><strong><a href = "gerar.html">Página de Geração de Imagem</a></strong></li>
+                <li><strong><a href = "contato.html">Contatos</a></strong></li>
+                <li><strong><a href = "index.html">Página Inicial</a></strong></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">    
+            <div class="banner">
+                <img src = "https://picsum.photos/200" alt = "imagem gerada">
+            </div>
+        <section class="descricao">
+            <p>
+            Aqui é concedido ao visitante o singular poder de descrever com palavras 
+            aquilo que deseja ver e a máquina, serva incansável e sem alma, há de traduzir 
+            tais desejos em imagens. Não se espante: é o verbo que se faz figura, como num 
+            Gênesis digital, embora sem milagres, só código e persistência estudantil.
+            </p>
+        </section>
+        <section class="formulario">
+            <form action = "#">
+                <label for = "descrição da imagem">Descreva imagem que deseja gerar:</label>
+                <textarea id= "descriçao-imagem" rows="10" required></textarea><br>
+                <button type = "submit">Enviar</button>
+                <p id="feedback" style="display: none;">Gerando imagem...</p>
+            </form>
+        </section>
+    </main>
+   <footer class = "rodape">© 2025 - IA Imaginária</footer>
+
+   
+</body>
+</html>
